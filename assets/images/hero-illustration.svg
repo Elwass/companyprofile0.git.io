@@ -1,0 +1,44 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear" x1="98.5" y1="38.2" x2="625.5" y2="489.1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152748" />
+      <stop offset="0.5" stop-color="#2D4B7A" />
+      <stop offset="1" stop-color="#4F6FA4" />
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="140" y1="120" x2="520" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6C480" />
+      <stop offset="1" stop-color="#C79A49" />
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="186" y1="180" x2="356" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EA4FF" />
+      <stop offset="1" stop-color="#2E62D3" />
+    </linearGradient>
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(578 118) rotate(128.2) scale(188 188)">
+      <stop stop-color="#F8DAB3" stop-opacity="0.86" />
+      <stop offset="1" stop-color="#F8DAB3" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadowSoft" x="48" y="40" width="624" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="16" />
+      <feGaussianBlur stdDeviation="28" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.12 0 0 0 0 0.23 0 0 0 0.24 0" />
+      <feBlend in2="SourceGraphic" result="effect1_dropShadow" />
+    </filter>
+  </defs>
+  <rect x="72" y="56" width="576" height="408" rx="48" fill="url(#paint0_linear)" filter="url(#shadowSoft)" />
+  <circle cx="570" cy="110" r="118" fill="url(#paint3_radial)" />
+  <path d="M150 330C206 270 300 260 360 270C420 280 464 306 520 288C560 274 598 238 626 196C626 196 614 378 500 410C386 442 236 406 150 330Z" fill="url(#paint1_linear)" opacity="0.65" />
+  <g filter="url(#shadowSoft)">
+    <path d="M188 360H478C497.882 360 514 376.118 514 396V404C514 423.882 497.882 440 478 440H188C168.118 440 152 423.882 152 404V396C152 376.118 168.118 360 188 360Z" fill="#111B2E" />
+    <path d="M216 224C216 208.536 228.536 196 244 196H422C437.464 196 450 208.536 450 224V360H216V224Z" fill="url(#paint2_linear)" />
+    <path d="M240 256H346" stroke="white" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6" />
+    <path d="M240 292H402" stroke="white" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6" />
+    <rect x="268" y="320" width="148" height="20" rx="10" fill="white" fill-opacity="0.22" />
+    <path d="M350 156C350 133.909 367.909 116 390 116C412.091 116 430 133.909 430 156C430 178.091 412.091 196 390 196H350V156Z" fill="#F6F8FC" />
+    <path d="M350 156C350 133.909 332.091 116 310 116C287.909 116 270 133.909 270 156C270 178.091 287.909 196 310 196H350V156Z" fill="#E0EBFF" />
+    <path d="M300 156C300 148.268 306.268 142 314 142C321.732 142 328 148.268 328 156C328 163.732 321.732 170 314 170C306.268 170 300 163.732 300 156Z" fill="#2E62D3" />
+    <path d="M370 156C370 148.268 376.268 142 384 142C391.732 142 398 148.268 398 156C398 163.732 391.732 170 384 170C376.268 170 370 163.732 370 156Z" fill="#152748" />
+  </g>
+  <path d="M110 210C130 188 180 168 236 170" stroke="#F3E4C5" stroke-width="6" stroke-linecap="round" stroke-opacity="0.45" />
+  <path d="M602 228C574 272 514 324 438 332" stroke="#E6C480" stroke-width="6" stroke-linecap="round" stroke-opacity="0.4" />
+  <path d="M136 122C149 104 175 92 200 96" stroke="#93B9FF" stroke-width="5" stroke-linecap="round" stroke-opacity="0.5" />
+</svg>

@@ -1,0 +1,32 @@
+<svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="180" y1="36" x2="180" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E2FF" />
+      <stop offset="1" stop-color="#92A6D6" />
+    </linearGradient>
+    <linearGradient id="pagoda" x1="112" y1="110" x2="250" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F3F62" />
+      <stop offset="1" stop-color="#1B273F" />
+    </linearGradient>
+    <linearGradient id="lantern" x1="66" y1="150" x2="102" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D293" />
+      <stop offset="1" stop-color="#D89F4B" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="260" rx="28" fill="#111D32" />
+  <rect x="12" y="12" width="336" height="236" rx="22" fill="#17243A" />
+  <rect x="24" y="24" width="312" height="176" rx="18" fill="url(#sky)" />
+  <path d="M24 192C56 168 112 160 156 170C200 180 240 196 284 188C312 182 328 170 336 162V236H24V192Z" fill="#142239" />
+  <path d="M116 188L132 128H228L244 188H116Z" fill="#E8EFFC" />
+  <path d="M140 136H220L228 168H132L140 136Z" fill="#253556" />
+  <path d="M150 110H210L220 136H140L150 110Z" fill="url(#pagoda)" />
+  <path d="M160 94H200L206 110H154L160 94Z" fill="#1A2B48" />
+  <rect x="170" y="152" width="20" height="36" fill="#1B273F" />
+  <path d="M70 198L90 150L110 198H70Z" fill="url(#lantern)" />
+  <path d="M248 198L268 150L288 198H248Z" fill="url(#lantern)" />
+  <path d="M256 148H280" stroke="#F6D293" stroke-width="6" stroke-linecap="round" />
+  <path d="M76 148H100" stroke="#F6D293" stroke-width="6" stroke-linecap="round" />
+  <path d="M120 206H236" stroke="#E6EEF9" stroke-width="6" stroke-linecap="round" />
+  <circle cx="286" cy="68" r="10" fill="#F9F4E5" />
+  <circle cx="80" cy="62" r="8" fill="#F9F4E5" />
+</svg>

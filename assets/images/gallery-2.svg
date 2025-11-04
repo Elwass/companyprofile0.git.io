@@ -1,9 +1,32 @@
-<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Mountain destination</title>
-  <desc id="desc">Illustration of mountains.</desc>
-  <rect width="400" height="260" rx="24" fill="#ede7f6" />
-  <path d="M0 180 L120 80 L220 200 Z" fill="#9575cd" />
-  <path d="M140 200 L260 60 L380 200 Z" fill="#7e57c2" />
-  <path d="M220 120 L260 80 L290 120 Z" fill="#d1c4e9" />
-  <rect y="200" width="400" height="60" fill="#d7ccc8" />
+<svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="180" y1="36" x2="180" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BB8F9" />
+      <stop offset="1" stop-color="#364C77" />
+    </linearGradient>
+    <linearGradient id="mountain" x1="60" y1="108" x2="260" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#546A96" />
+      <stop offset="1" stop-color="#273853" />
+    </linearGradient>
+    <linearGradient id="aurora" x1="56" y1="72" x2="312" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58F5D5" stop-opacity="0.4" />
+      <stop offset="0.5" stop-color="#7EA7FF" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#F5E393" stop-opacity="0.35" />
+    </linearGradient>
+    <linearGradient id="snow" x1="140" y1="170" x2="220" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F7FD" />
+      <stop offset="1" stop-color="#D8E1F7" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="260" rx="28" fill="#101B2F" />
+  <rect x="12" y="12" width="336" height="236" rx="22" fill="#0F1A2B" />
+  <rect x="24" y="24" width="312" height="176" rx="18" fill="url(#sky)" />
+  <path d="M70 188L140 116L206 176L252 138L310 196" fill="url(#mountain)" stroke="#AFC3F8" stroke-opacity="0.3" stroke-width="4" stroke-linejoin="round" />
+  <path d="M82 194L132 124L194 186L238 142L298 206" stroke="#E6EDF9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M52 182C92 162 128 166 154 180C190 198 230 210 274 194C302 184 320 166 336 152V220H24V190C32 190 40 188 52 182Z" fill="#14243A" />
+  <path d="M66 212C76 198 100 192 124 194C148 196 170 206 188 214C214 226 240 232 272 224C300 218 320 206 336 198V236H24L66 212Z" fill="url(#snow)" />
+  <path d="M44 120C64 96 116 64 188 74C260 84 312 128 332 154" stroke="url(#aurora)" stroke-width="28" stroke-linecap="round" />
+  <circle cx="268" cy="80" r="10" fill="#F5F2E5" />
+  <circle cx="288" cy="98" r="6" fill="#F5F2E5" opacity="0.6" />
+  <circle cx="240" cy="68" r="5" fill="#F5F2E5" opacity="0.5" />
 </svg>

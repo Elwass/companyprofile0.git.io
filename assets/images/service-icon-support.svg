@@ -1,7 +1,20 @@
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Support service icon</title>
-  <desc id="desc">A headset representing customer support.</desc>
-  <rect width="160" height="160" rx="24" fill="#fff3e0" />
-  <path d="M80 36a44 44 0 00-44 44v18a14 14 0 0014 14h6V84H52v-4a28 28 0 0156 0v4h-4v28h6a14 14 0 0014-14V80A44 44 0 0080 36z" fill="#fb8c00" />
-  <rect x="68" y="96" width="24" height="36" rx="12" fill="#ffb74d" />
+<svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="46" cy="46" r="44" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <path d="M58 34C58 27.3726 52.6274 22 46 22C39.3726 22 34 27.3726 34 34V42H30C27.7909 42 26 43.7909 26 46V58C26 60.2091 27.7909 62 30 62H34V58H30V46H34V54C34 56.2091 35.7909 58 38 58H44" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M58 34V42H62C64.2091 42 66 43.7909 66 46V58C66 60.2091 64.2091 62 62 62H56L50 70" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="46" cy="46" r="6" fill="#D9B673" stroke="white" stroke-width="4" />
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="18" y1="14" x2="74" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#203256" />
+      <stop offset="1" stop-color="#3B5782" />
+    </linearGradient>
+    <filter id="shadow" x="18" y="18" width="56" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="6" />
+      <feGaussianBlur stdDeviation="6" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.22 0" />
+      <feBlend in2="SourceGraphic" result="effect1_dropShadow" />
+    </filter>
+  </defs>
 </svg>

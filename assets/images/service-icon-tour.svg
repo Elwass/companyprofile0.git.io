@@ -1,7 +1,21 @@
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Guided tour icon</title>
-  <desc id="desc">A map marker with a path.</desc>
-  <rect width="160" height="160" rx="24" fill="#e3f2fd" />
-  <path d="M80 40a30 30 0 00-30 30c0 22 30 50 30 50s30-28 30-50a30 30 0 00-30-30zm0 42a12 12 0 1112-12 12 12 0 01-12 12z" fill="#1e88e5" />
-  <path d="M40 110c20-12 60-12 80 0" fill="none" stroke="#64b5f6" stroke-width="8" stroke-linecap="round" />
+<svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="46" cy="46" r="44" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <path d="M30 54L40 40L50 48L62 30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="62" cy="30" r="6" fill="#F0D49A" stroke="white" stroke-width="3" />
+    <path d="M28 60H64" stroke="white" stroke-width="4" stroke-linecap="round" stroke-opacity="0.6" />
+    <path d="M28 68H52" stroke="white" stroke-width="4" stroke-linecap="round" stroke-opacity="0.45" />
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="12" y1="10" x2="80" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B3F66" />
+      <stop offset="1" stop-color="#4C6FA1" />
+    </linearGradient>
+    <filter id="shadow" x="16" y="16" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="6" />
+      <feGaussianBlur stdDeviation="6" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.22 0" />
+      <feBlend in2="SourceGraphic" result="effect1_dropShadow" />
+    </filter>
+  </defs>
 </svg>

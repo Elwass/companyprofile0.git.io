@@ -1,10 +1,33 @@
-<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Beach destination</title>
-  <desc id="desc">Illustration of palm tree beach.</desc>
-  <rect width="400" height="260" rx="24" fill="#e0f7fa" />
-  <circle cx="320" cy="80" r="46" fill="#ffe082" />
-  <path d="M0 170h400v90H0z" fill="#4dd0e1" />
-  <path d="M80 110c0-18 16-32 36-32s36 14 36 32" fill="#4caf50" />
-  <rect x="110" y="110" width="12" height="100" fill="#6d4c41" />
-  <path d="M116 98l18-38 6 4-12 34 26-20 4 8-26 20 32-2v10l-32 2 26 20-4 8-26-20 12 34-6 4-18-38-18 38-6-4 12-34-26 20-4-8 26-20-32 2v-10l32-2-26-20 4-8 26 20-12-34 6-4z" fill="#66bb6a" />
+<svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="180" y1="24" x2="180" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EAEEA" />
+      <stop offset="1" stop-color="#4C6BA3" />
+    </linearGradient>
+    <linearGradient id="sea" x1="180" y1="140" x2="180" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D4C72" />
+      <stop offset="1" stop-color="#172844" />
+    </linearGradient>
+    <linearGradient id="sun" x1="262" y1="56" x2="310" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D296" />
+      <stop offset="1" stop-color="#D9A85E" />
+    </linearGradient>
+    <linearGradient id="table" x1="68" y1="172" x2="196" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7EFE0" />
+      <stop offset="1" stop-color="#E5D2B6" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="260" rx="28" fill="#0D1627" />
+  <rect x="12" y="12" width="336" height="236" rx="22" fill="#101F36" />
+  <rect x="24" y="24" width="312" height="160" rx="18" fill="url(#sky)" />
+  <circle cx="286" cy="80" r="28" fill="url(#sun)" />
+  <path d="M24 160C70 140 118 144 150 152C196 164 220 180 264 168C300 158 324 130 336 116V184H24V160Z" fill="url(#sea)" />
+  <path d="M60 214L92 184H216L248 214H60Z" fill="#142238" />
+  <rect x="76" y="188" width="180" height="32" rx="12" fill="url(#table)" />
+  <path d="M132 180L150 140L184 140L202 180H132Z" fill="#F8F4ED" stroke="#E5D7C0" stroke-width="4" stroke-linejoin="round" />
+  <path d="M150 140L164 120L196 120L206 140H150Z" fill="#F1D7AA" stroke="#E2C18B" stroke-width="4" stroke-linejoin="round" />
+  <rect x="104" y="200" width="24" height="20" rx="8" fill="#C6984B" />
+  <rect x="212" y="200" width="24" height="20" rx="8" fill="#C6984B" />
+  <path d="M110 154C124 140 148 132 170 134C192 136 210 148 222 162" stroke="#F8EFE2" stroke-width="6" stroke-linecap="round" />
+  <path d="M72 200C84 188 108 180 132 184" stroke="#F5D9AB" stroke-width="6" stroke-linecap="round" />
 </svg>

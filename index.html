@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -16,8 +16,11 @@
     <header class="site-header">
       <div class="container">
         <a href="#hero" class="brand" aria-label="Seaside Journey homepage">
-          <span class="brand-mark">Seaside</span>
-          <span class="brand-name">Journey Travel</span>
+          <span class="brand-mark">SJ</span>
+          <span class="brand-name">
+            <span>Seaside</span>
+            <span>Journey Travel</span>
+          </span>
         </a>
         <nav class="main-nav" aria-label="Primary">
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
@@ -31,6 +34,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#packages">Packages</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -40,44 +44,84 @@
 
     <main>
       <section class="hero" id="hero">
-        <div class="container hero-layout">
+        <div class="container">
           <div class="hero-copy">
-            <p class="eyebrow">Your trusted travel management partner</p>
-            <h1>Creating relaxing and memorable journeys for every traveler</h1>
+            <p class="eyebrow">crafted for discerning travellers</p>
+            <h1>Elevated travel management for unforgettable corporate & private escapes</h1>
             <p>
-              Seaside Journey Travel membantu perusahaan dan keluarga merencanakan
-              perjalanan tanpa repot. Kami hadir dengan tim konsultan lokal yang
-              siap memastikan setiap pengalaman berjalan nyaman dan aman.
+              Seaside Journey Travel merancang perjalanan kelas premium untuk kebutuhan korporat
+              maupun personal. Tim concierge kami memastikan setiap detail — dari itinerary,
+              logistik, hingga pengalaman eksklusif — berjalan mulus dan elegan.
             </p>
             <div class="hero-actions">
-              <a class="btn primary" href="#packages">Lihat Paket</a>
-              <a class="btn ghost" href="#about">Kenali Kami</a>
+              <a class="btn primary" href="#packages">Eksplor Paket Signature</a>
+              <a class="btn ghost" href="#about">Pelajari Profil Kami</a>
+            </div>
+            <div class="hero-meta">
+              <div class="hero-metric">
+                <span>280+</span>
+                <small>Klien korporat aktif</small>
+              </div>
+              <div class="hero-metric">
+                <span>48</span>
+                <small>Destinasi internasional</small>
+              </div>
+              <div class="hero-metric">
+                <span>12 th</span>
+                <small>Pengalaman industri</small>
+              </div>
+              <div class="hero-metric">
+                <span>98%</span>
+                <small>Tingkat retensi klien</small>
+              </div>
             </div>
           </div>
           <div class="hero-media">
-            <img src="assets/images/hero-illustration.svg" alt="Illustration of a scenic journey" />
+            <img src="assets/images/hero-illustration.svg" alt="Luxury travel illustration" />
           </div>
+        </div>
+      </section>
+
+      <section class="partners" aria-label="Trusted partners">
+        <div class="container">
+          <span>Trusted by leading brands</span>
+          <ul>
+            <li>Garuda Indonesia</li>
+            <li>Mandiri Group</li>
+            <li>Hilton Honors</li>
+            <li>Singapore Tourism</li>
+            <li>Wonderful Indonesia</li>
+          </ul>
         </div>
       </section>
 
       <section class="about" id="about">
         <div class="container about-layout">
           <div class="about-media">
-            <img src="assets/images/about-team.svg" alt="Travel consultant team" />
+            <img src="assets/images/about-team.svg" alt="Dedicated travel consultants" />
           </div>
           <div class="about-copy">
-            <h2>Siapa kami</h2>
+            <h2>Profil boutique travel concierge kami</h2>
             <p>
-              Seaside Journey Travel berdiri di Surabaya sejak 2011 dengan fokus pada layanan
-              tour & travel profesional. Kami percaya perjalanan yang baik diawali dari
-              perencanaan matang, komunikasi yang jelas, serta dukungan penuh selama di
-              destinasi.
+              Berbasis di Surabaya sejak 2011, Seaside Journey Travel berkembang sebagai konsultan
+              perjalanan boutique dengan fokus layanan personal. Kami mengombinasikan jaringan global
+              dengan sentuhan hospitality lokal untuk memberikan pengalaman yang tak terlupakan.
             </p>
             <ul class="about-highlights">
-              <li>Tim konsultan berpengalaman di 25+ destinasi populer</li>
-              <li>Kerja sama resmi dengan maskapai, hotel, dan operator lokal</li>
-              <li>Layanan pelanggan 24/7 dalam bahasa Indonesia & Inggris</li>
+              <li>Tim ahli yang tersertifikasi dalam MICE, leisure premium, dan luxury cruise.</li>
+              <li>Kemitraan eksklusif dengan hotel bintang lima, maskapai full-service, dan operator lokal.</li>
+              <li>Perencanaan menyeluruh mulai dari visa, dokumentasi, hingga concierge 24/7.</li>
             </ul>
+            <div class="about-metrics">
+              <div class="metric-card">
+                <strong>4.9/5</strong>
+                <span>Client satisfaction score</span>
+              </div>
+              <div class="metric-card">
+                <strong>65+</strong>
+                <span>Luxury experience curators</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -85,32 +129,35 @@
       <section class="services" id="services">
         <div class="container">
           <div class="section-heading">
-            <h2>Layanan unggulan</h2>
-            <p>Paket komprehensif yang dirancang untuk kebutuhan liburan maupun perjalanan bisnis.</p>
+            <h2>Layanan terintegrasi</h2>
+            <p>
+              Layanan end-to-end untuk memastikan perjalanan bisnis, insentif, dan liburan keluarga Anda
+              dirancang dengan sempurna tanpa kompromi pada kenyamanan maupun gaya.
+            </p>
           </div>
           <div class="service-grid">
             <article class="service-card">
-              <img src="assets/images/service-icon-tour.svg" alt="Guided tour icon" />
-              <h3>Corporate & Group Tour</h3>
+              <img src="assets/images/service-icon-tour.svg" alt="Icon curated tour" />
+              <h3>Curated Signature Journeys</h3>
               <p>
-                Penyelenggaraan outing, incentive trip, dan family gathering dengan itinerary rapi,
-                pilihan hotel terpercaya, serta dokumentasi lengkap.
+                Rancang itinerary tailor-made lengkap dengan aktivitas eksklusif, pemandu profesional,
+                dan pengalaman otentik di setiap destinasi unggulan.
               </p>
             </article>
             <article class="service-card">
-              <img src="assets/images/service-icon-hotel.svg" alt="Hotel service icon" />
-              <h3>Ticketing & Akomodasi</h3>
+              <img src="assets/images/service-icon-hotel.svg" alt="Icon hotel and flights" />
+              <h3>Executive Ticketing & Stays</h3>
               <p>
-                Pengurusan tiket pesawat, kereta, hotel, dan transport lokal yang fleksibel agar
-                tim Anda bisa fokus pada tujuan perjalanan.
+                Akses prioritas ke maskapai premium, villa privat, dan jaringan hotel bintang lima dengan
+                fleksibilitas jadwal serta dukungan perubahan mendadak.
               </p>
             </article>
             <article class="service-card">
-              <img src="assets/images/service-icon-support.svg" alt="Customer support icon" />
-              <h3>Travel Assistance</h3>
+              <img src="assets/images/service-icon-support.svg" alt="Icon concierge support" />
+              <h3>Concierge & Travel Protection</h3>
               <p>
-                Dukungan dokumen perjalanan, asuransi, hingga layanan darurat selama perjalanan
-                berlangsung melalui satu nomor hotline.
+                Tim concierge 24/7 siap membantu dokumen perjalanan, perlindungan asuransi, hingga
+                penanganan kejadian darurat di destinasi.
               </p>
             </article>
           </div>
@@ -120,35 +167,38 @@
       <section class="packages" id="packages">
         <div class="container">
           <div class="section-heading">
-            <h2>Paket favorit</h2>
-            <p>Pilihan paket perjalanan yang paling diminati klien kami sepanjang tahun.</p>
+            <h2>Paket signature terbaru</h2>
+            <p>
+              Pilihan paket terkurasi untuk musim perjalanan tahun ini, ideal untuk program insentif,
+              board retreat, maupun liburan keluarga mewah Anda.
+            </p>
           </div>
           <div class="package-grid">
             <article class="package-card">
-              <h3>Bali Leisure 4D3N</h3>
-              <p class="package-price">Mulai 3,8 jt/pax</p>
+              <h3>Bali Oceanfront Retreat 4D3N</h3>
+              <p class="package-price">Mulai 9,2 jt/pax</p>
               <ul>
-                <li>Hotel bintang 4 di Kuta & Nusa Dua</li>
-                <li>Private tour ke Nusa Penida</li>
-                <li>Transport & guide berbahasa Indonesia</li>
+                <li>Resort tepi pantai dengan private butler & sunset cruise</li>
+                <li>Wellness session eksklusif dan private dining oleh chef lokal</li>
+                <li>Transfer premium & dokumentasi profesional</li>
               </ul>
             </article>
             <article class="package-card">
-              <h3>Singapore Business Trip</h3>
-              <p class="package-price">Mulai 6,5 jt/pax</p>
+              <h3>Kyoto Culture Immersion 5D4N</h3>
+              <p class="package-price">Mulai 18,5 jt/pax</p>
               <ul>
-                <li>Tiket PP full service airline</li>
-                <li>Meeting arrangement & city tour</li>
-                <li>Penjemputan bandara & asuransi perjalanan</li>
+                <li>Business class flight & akses lounge prioritas</li>
+                <li>Workshop teh tradisional dan experience kimono private</li>
+                <li>Guide bilingual & dukungan visa lengkap</li>
               </ul>
             </article>
             <article class="package-card">
-              <h3>Labuan Bajo Sailing</h3>
-              <p class="package-price">Mulai 8,9 jt/pax</p>
+              <h3>Norway Aurora Expedition 7D6N</h3>
+              <p class="package-price">Mulai 42 jt/pax</p>
               <ul>
-                <li>Live on board kapal phinisi 3 hari</li>
-                <li>Makan lengkap & dokumentasi profesional</li>
-                <li>Guide lokal bersertifikat</li>
+                <li>Expedition cruise eksklusif dengan naturalist host</li>
+                <li>Pengalaman husky sledding & fotografi aurora profesional</li>
+                <li>Paket asuransi lengkap dan layanan concierge 24 jam</li>
               </ul>
             </article>
           </div>
@@ -158,27 +208,30 @@
       <section class="testimonials" id="testimonials">
         <div class="container">
           <div class="section-heading">
-            <h2>Kata mereka</h2>
-            <p>Pengalaman nyata dari klien yang telah mempercayakan perjalanannya kepada kami.</p>
+            <h2>Testimoni para klien</h2>
+            <p>
+              Kami bangga menjadi mitra perjalanan yang dipercaya perusahaan dan keluarga prestisius di
+              seluruh Indonesia.
+            </p>
           </div>
           <div class="testimonial-grid">
             <figure class="testimonial-card">
               <blockquote>
-                "Tim Seaside Journey sangat responsif. Perjalanan perusahaan kami ke Bangkok
-                berjalan lancar, semua peserta puas dengan pelayanannya."
+                “Agenda incentive trip kami ke Korea tersusun rapi. Semua tamu VIP terlayani dengan
+                profesional dan tim Seaside selalu sigap menangani permintaan mendadak.”
               </blockquote>
               <figcaption>
-                <strong>Rani W.</strong>
-                <span>HR Manager, PT Nusantara Food</span>
+                <strong>Mira Adistya</strong>
+                <span>Corporate Communication Director, Astra Life</span>
               </figcaption>
             </figure>
             <figure class="testimonial-card">
               <blockquote>
-                "Itinerary liburan keluarga di Jepang lengkap sekali. Anak-anak senang, orang tua
-                pun nyaman karena semua detail sudah diurus tim."
+                “Liburan keluarga besar ke Swiss terasa sangat personal. Anak-anak senang, orang tua
+                nyaman, dan layanan concierge 24 jam benar-benar membantu kami menikmati momen.”
               </blockquote>
               <figcaption>
-                <strong>Adi &amp; Family</strong>
+                <strong>Family Hartanto</strong>
                 <span>Surabaya</span>
               </figcaption>
             </figure>
@@ -186,16 +239,16 @@
         </div>
       </section>
 
-      <section class="gallery" aria-label="Destination gallery">
+      <section class="gallery" id="gallery" aria-label="Destination gallery">
         <div class="container">
           <div class="section-heading">
-            <h2>Galeri destinasi</h2>
-            <p>Inspirasi destinasi populer yang dapat Anda pilih untuk perjalanan berikutnya.</p>
+            <h2>Potret pengalaman klien</h2>
+            <p>Galeri dokumentasi perjalanan eksklusif yang kami kurasi sepanjang tahun.</p>
           </div>
           <div class="gallery-grid">
-            <img src="assets/images/gallery-1.svg" alt="Illustration of tropical beach" />
-            <img src="assets/images/gallery-2.svg" alt="Illustration of mountain landscape" />
-            <img src="assets/images/gallery-3.svg" alt="Illustration of modern city skyline" />
+            <img src="assets/images/gallery-1.svg" alt="Luxury beachside dinner" />
+            <img src="assets/images/gallery-2.svg" alt="Aurora over fjord landscape" />
+            <img src="assets/images/gallery-3.svg" alt="Traditional Kyoto street" />
           </div>
         </div>
       </section>
@@ -203,15 +256,15 @@
       <section class="contact" id="contact">
         <div class="container contact-layout">
           <div class="contact-info">
-            <h2>Hubungi kami</h2>
+            <h2>Hubungi travel concierge kami</h2>
             <p>
-              Siap berdiskusi mengenai kebutuhan perjalanan Anda? Kirimkan detailnya melalui email
-              atau hubungi nomor kami di jam kerja.
+              Bagikan rencana perjalanan Anda dan tim kami akan menyiapkan proposal eksklusif dalam 24 jam
+              kerja.
             </p>
             <ul class="contact-list">
-              <li>Email: <a href="mailto:hello@seasidejourney.co.id">hello@seasidejourney.co.id</a></li>
+              <li>Email: <a href="mailto:concierge@seasidejourney.co.id">concierge@seasidejourney.co.id</a></li>
               <li>Telepon: <a href="tel:+623165551234">+62 31 6555 1234</a></li>
-              <li>Alamat kantor: Jl. Raya Darmo No. 45, Surabaya</li>
+              <li>Alamat showroom: Jl. Raya Darmo No. 45, Surabaya</li>
             </ul>
           </div>
           <form class="contact-form" aria-label="Contact form">
@@ -236,7 +289,7 @@
     <footer class="site-footer">
       <div class="container footer-layout">
         <div>
-          <span class="brand-mark">Seaside</span>
+          <span class="brand-mark">SJ</span>
           <p>© 2024 Seaside Journey Travel. All rights reserved.</p>
         </div>
         <ul class="footer-links">

@@ -1,15 +1,22 @@
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hotel service icon</title>
-  <desc id="desc">Hotel building with stars.</desc>
-  <rect width="160" height="160" rx="24" fill="#ede7f6" />
-  <path d="M50 110h60V60a20 20 0 10-40 0v50z" fill="#5e35b1" />
-  <path d="M40 120h80v10H40z" fill="#7e57c2" />
-  <g fill="#9575cd">
-    <rect x="60" y="70" width="12" height="20" rx="4" />
-    <rect x="88" y="70" width="12" height="20" rx="4" />
+<svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="46" cy="46" r="44" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <rect x="28" y="30" width="36" height="36" rx="10" fill="#F0F3FF" stroke="white" stroke-width="4" />
+    <path d="M34 58H58" stroke="#1E2E4C" stroke-width="4" stroke-linecap="round" />
+    <path d="M34 46H58" stroke="#1E2E4C" stroke-width="4" stroke-linecap="round" stroke-opacity="0.7" />
+    <path d="M34 34H58" stroke="#C9A04E" stroke-width="4" stroke-linecap="round" />
+    <circle cx="46" cy="46" r="4" fill="#C69A4B" />
   </g>
-  <g fill="#ffca28">
-    <polygon points="40,46 45,60 60,60 48,68 52,82 40,74 28,82 32,68 20,60 35,60" />
-    <polygon points="120,46 125,60 140,60 128,68 132,82 120,74 108,82 112,68 100,60 115,60" />
-  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="14" y1="12" x2="78" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24365A" />
+      <stop offset="1" stop-color="#3E5C84" />
+    </linearGradient>
+    <filter id="shadow" x="18" y="22" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="6" />
+      <feGaussianBlur stdDeviation="6" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.22 0" />
+      <feBlend in2="SourceGraphic" result="effect1_dropShadow" />
+    </filter>
+  </defs>
 </svg>

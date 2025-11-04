@@ -1,0 +1,10 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Beach destination</title>
+  <desc id="desc">Illustration of palm tree beach.</desc>
+  <rect width="400" height="260" rx="24" fill="#e0f7fa" />
+  <circle cx="320" cy="80" r="46" fill="#ffe082" />
+  <path d="M0 170h400v90H0z" fill="#4dd0e1" />
+  <path d="M80 110c0-18 16-32 36-32s36 14 36 32" fill="#4caf50" />
+  <rect x="110" y="110" width="12" height="100" fill="#6d4c41" />
+  <path d="M116 98l18-38 6 4-12 34 26-20 4 8-26 20 32-2v10l-32 2 26 20-4 8-26-20 12 34-6 4-18-38-18 38-6-4 12-34-26 20-4-8 26-20-32 2v-10l32-2-26-20 4-8 26 20-12-34 6-4z" fill="#66bb6a" />
+</svg>

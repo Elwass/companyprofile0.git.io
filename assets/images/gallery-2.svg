@@ -1,0 +1,9 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mountain destination</title>
+  <desc id="desc">Illustration of mountains.</desc>
+  <rect width="400" height="260" rx="24" fill="#ede7f6" />
+  <path d="M0 180 L120 80 L220 200 Z" fill="#9575cd" />
+  <path d="M140 200 L260 60 L380 200 Z" fill="#7e57c2" />
+  <path d="M220 120 L260 80 L290 120 Z" fill="#d1c4e9" />
+  <rect y="200" width="400" height="60" fill="#d7ccc8" />
+</svg>

@@ -1,21 +1,21 @@
-# Lorea Travel — Company Profile Site
+# Seaside Journey Travel — Company Profile Site
 
-This repository contains a single-page company profile website for **Lorea Travel**, inspired by modern travel brand presentations. The site highlights destinations, services, partner logos, mobile app promotion, FAQs, and contact information.
+This repository berisi website profil perusahaan statis untuk **Seaside Journey Travel**, agen perjalanan yang menyediakan layanan tour, ticketing, serta dukungan perjalanan profesional. Halaman tunggal ini menampilkan informasi perusahaan, layanan utama, paket favorit, testimoni, galeri destinasi, dan detail kontak dengan gaya visual yang lembut.
 
-## Getting started
+## Cara menggunakan
 
-Open `index.html` in your browser to explore the static experience.
+Buka `index.html` menggunakan peramban modern untuk melihat tampilan lengkapnya.
 
 ```
 open index.html
 ```
 
-> On Windows use `start index.html`, on Linux use `xdg-open index.html`.
+> Pada Windows gunakan `start index.html`, pada Linux gunakan `xdg-open index.html`.
 
-## Structure
+## Struktur
 
-- `index.html` – Main page layout.
-- `assets/css/style.css` – Styling and responsive design.
-- `assets/js/main.js` – Navigation toggle, accordion behavior, and dynamic year display.
+- `index.html` – Struktur halaman dan konten utama.
+- `assets/css/style.css` – Gaya visual, tata letak, dan responsivitas.
+- `assets/images/` – Ilustrasi SVG default untuk hero, layanan, dan galeri.
 
-Feel free to customize the copy, imagery, and branding to match your travel company.
+Silakan sesuaikan teks, warna, maupun aset sesuai identitas merek perusahaan Anda.

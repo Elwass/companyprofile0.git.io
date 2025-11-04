@@ -1,0 +1,19 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Travel team illustration</title>
+  <desc id="desc">Stylized people preparing for travel.</desc>
+  <rect width="800" height="600" fill="#e8f5e9" />
+  <g fill="#4db6ac">
+    <circle cx="200" cy="220" r="70" />
+    <rect x="160" y="290" width="80" height="180" rx="24" />
+  </g>
+  <g fill="#ffd54f">
+    <circle cx="380" cy="200" r="60" />
+    <rect x="340" y="260" width="80" height="200" rx="24" />
+  </g>
+  <g fill="#64b5f6">
+    <circle cx="560" cy="240" r="65" />
+    <rect x="520" y="310" width="80" height="170" rx="24" />
+  </g>
+  <rect x="180" y="460" width="440" height="60" rx="30" fill="#b2dfdb" />
+  <circle cx="400" cy="480" r="120" stroke="#4db6ac" stroke-width="10" fill="none" opacity="0.6" />
+</svg>

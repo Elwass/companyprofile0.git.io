@@ -1,0 +1,10 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">City destination</title>
+  <desc id="desc">Illustration of modern city skyline.</desc>
+  <rect width="400" height="260" rx="24" fill="#e3f2fd" />
+  <rect x="60" y="90" width="70" height="130" fill="#90caf9" />
+  <rect x="150" y="70" width="60" height="150" fill="#64b5f6" />
+  <rect x="230" y="110" width="80" height="110" fill="#42a5f5" />
+  <rect x="330" y="100" width="30" height="120" fill="#1e88e5" />
+  <circle cx="320" cy="70" r="32" fill="#fff59d" />
+</svg>

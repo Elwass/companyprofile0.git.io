@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lorea Travel Co. — Company Profile</title>
+    <title>Seaside Journey Travel — Company Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -15,57 +15,69 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <a href="#" class="logo" aria-label="Lorea Travel homepage">
-          <span class="logo-mark">Lorea</span>
+        <a href="#hero" class="brand" aria-label="Seaside Journey homepage">
+          <span class="brand-mark">Seaside</span>
+          <span class="brand-name">Journey Travel</span>
         </a>
-        <nav class="navigation" aria-label="Primary">
+        <nav class="main-nav" aria-label="Primary">
           <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">Open navigation</span>
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
           </button>
           <ul id="primary-menu" class="nav-list">
-            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#app">Mobile App</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <a class="cta" href="#contact">Let's Connect</a>
+        <a class="header-cta" href="#contact">Request Proposal</a>
       </div>
     </header>
 
     <main>
-      <section class="hero" id="destinations">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-          <p class="label">Explore With Confidence</p>
-          <h1>Designing unforgettable journeys across the globe</h1>
-          <p class="intro">
-            Lorea Travel combines decades of expertise with modern tools to craft
-            tailor-made experiences for explorers, corporate teams, and luxury
-            travelers alike. Wherever you want to go, we make it effortless.
-          </p>
-          <div class="hero-actions">
-            <a href="#services" class="btn primary">Discover Services</a>
-            <a href="#app" class="btn ghost">View Mobile App</a>
+      <section class="hero" id="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Your trusted travel management partner</p>
+            <h1>Creating relaxing and memorable journeys for every traveler</h1>
+            <p>
+              Seaside Journey Travel membantu perusahaan dan keluarga merencanakan
+              perjalanan tanpa repot. Kami hadir dengan tim konsultan lokal yang
+              siap memastikan setiap pengalaman berjalan nyaman dan aman.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#packages">Lihat Paket</a>
+              <a class="btn ghost" href="#about">Kenali Kami</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img src="assets/images/hero-illustration.svg" alt="Illustration of a scenic journey" />
           </div>
         </div>
       </section>
 
-      <section class="partners" aria-label="Partner logos">
-        <div class="container">
-          <h2>Trusted by global brands</h2>
-          <p class="subtitle">More than 120 partners collaborate with Lorea Travel.</p>
-          <div class="logo-grid">
-            <div class="logo-card">Hill-Rom</div>
-            <div class="logo-card">Image Travel</div>
-            <div class="logo-card">Oceania</div>
-            <div class="logo-card">Aurora</div>
-            <div class="logo-card">Horizon Labs</div>
-            <div class="logo-card">Northwind</div>
+      <section class="about" id="about">
+        <div class="container about-layout">
+          <div class="about-media">
+            <img src="assets/images/about-team.svg" alt="Travel consultant team" />
+          </div>
+          <div class="about-copy">
+            <h2>Siapa kami</h2>
+            <p>
+              Seaside Journey Travel berdiri di Surabaya sejak 2011 dengan fokus pada layanan
+              tour & travel profesional. Kami percaya perjalanan yang baik diawali dari
+              perencanaan matang, komunikasi yang jelas, serta dukungan penuh selama di
+              destinasi.
+            </p>
+            <ul class="about-highlights">
+              <li>Tim konsultan berpengalaman di 25+ destinasi populer</li>
+              <li>Kerja sama resmi dengan maskapai, hotel, dan operator lokal</li>
+              <li>Layanan pelanggan 24/7 dalam bahasa Indonesia & Inggris</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -73,191 +85,177 @@
       <section class="services" id="services">
         <div class="container">
           <div class="section-heading">
-            <p class="label">What We Do</p>
-            <h2>Experiences curated by local experts</h2>
-            <p>
-              From Arctic cruises to cultural immersions in Indonesia, our travel
-              architects tailor every detail to your priorities and pace.
-            </p>
+            <h2>Layanan unggulan</h2>
+            <p>Paket komprehensif yang dirancang untuk kebutuhan liburan maupun perjalanan bisnis.</p>
           </div>
           <div class="service-grid">
             <article class="service-card">
-              <h3>Corporate Retreats</h3>
+              <img src="assets/images/service-icon-tour.svg" alt="Guided tour icon" />
+              <h3>Corporate & Group Tour</h3>
               <p>
-                Build stronger teams with offsites designed for inspiration,
-                collaboration, and restoration in world-class destinations.
+                Penyelenggaraan outing, incentive trip, dan family gathering dengan itinerary rapi,
+                pilihan hotel terpercaya, serta dokumentasi lengkap.
               </p>
             </article>
             <article class="service-card">
-              <h3>Private Expeditions</h3>
+              <img src="assets/images/service-icon-hotel.svg" alt="Hotel service icon" />
+              <h3>Ticketing & Akomodasi</h3>
               <p>
-                Enjoy bespoke itineraries guided by local insiders, combining
-                adventure, gastronomy, and cultural discovery.
+                Pengurusan tiket pesawat, kereta, hotel, dan transport lokal yang fleksibel agar
+                tim Anda bisa fokus pada tujuan perjalanan.
               </p>
             </article>
             <article class="service-card">
-              <h3>Concierge Support</h3>
+              <img src="assets/images/service-icon-support.svg" alt="Customer support icon" />
+              <h3>Travel Assistance</h3>
               <p>
-                24/7 access to our concierge desk ensures smooth travel,
-                last-minute changes, and on-the-ground problem solving.
-              </p>
-            </article>
-            <article class="service-card">
-              <h3>Responsible Travel</h3>
-              <p>
-                We partner with communities to preserve environments and create
-                positive impact with every journey booked.
+                Dukungan dokumen perjalanan, asuransi, hingga layanan darurat selama perjalanan
+                berlangsung melalui satu nomor hotline.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="feature highlight" aria-label="Featured destination">
-        <div class="container">
-          <div class="feature-media" role="presentation"></div>
-          <div class="feature-content">
-            <p class="label">Featured Journey</p>
-            <h2>Norway's fjords reinvented for the modern explorer</h2>
-            <p>
-              Sail through luminescent fjords, chase the aurora borealis, and
-              dine in hidden culinary gems. Our Norway signature journey is a
-              celebration of nature, design, and sustainable travel.
-            </p>
-            <ul class="feature-list">
-              <li>Partnerships with boutique vessels and eco-lodges</li>
-              <li>Local naturalists and storytellers on every expedition</li>
-              <li>Carbon-neutral itineraries with verified offsets</li>
-            </ul>
-            <a href="#contact" class="btn primary">Plan your trip</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="app" id="app">
-        <div class="container">
-          <div class="app-content">
-            <p class="label">Travel Smarter</p>
-            <h2>Manage itineraries with the Lorea app</h2>
-            <p>
-              Stay on top of bookings, documents, and concierge chat from any
-              device. Available on iOS and Android for all members.
-            </p>
-            <div class="store-buttons">
-              <a class="store-btn" href="#" aria-label="Download on the App Store">
-                <span class="icon"></span>
-                <span class="text">
-                  <small>Download on the</small>
-                  <strong>App Store</strong>
-                </span>
-              </a>
-              <a class="store-btn" href="#" aria-label="Get it on Google Play">
-                <span class="icon">▶</span>
-                <span class="text">
-                  <small>Get it on</small>
-                  <strong>Google Play</strong>
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="app-mockup" role="presentation"></div>
-        </div>
-      </section>
-
-      <section class="faq" id="faq">
+      <section class="packages" id="packages">
         <div class="container">
           <div class="section-heading">
-            <p class="label">You ask? We answer.</p>
-            <h2>No need to worry — we're here to help ❤️</h2>
-            <p>Explore answers to common questions from our travelers.</p>
+            <h2>Paket favorit</h2>
+            <p>Pilihan paket perjalanan yang paling diminati klien kami sepanjang tahun.</p>
           </div>
-          <div class="accordion" role="tablist">
-            <div class="accordion-item">
-              <button class="accordion-trigger" aria-expanded="false">
-                <span>What services does your travel company offer?</span>
-                <span class="icon">+</span>
-              </button>
-              <div class="accordion-panel" hidden>
-                <p>
-                  We specialize in fully customized travel planning, group and
-                  corporate retreats, private expeditions, and concierge support.
-                  Every itinerary is curated by destination experts.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <button class="accordion-trigger" aria-expanded="false">
-                <span>Can I customize my travel itinerary?</span>
-                <span class="icon">+</span>
-              </button>
-              <div class="accordion-panel" hidden>
-                <p>
-                  Absolutely. Share your interests, travel style, and schedule,
-                  and our team will craft multiple options to choose from.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <button class="accordion-trigger" aria-expanded="false">
-                <span>How can I check the status of my booking?</span>
-                <span class="icon">+</span>
-              </button>
-              <div class="accordion-panel" hidden>
-                <p>
-                  You can review and manage every booking directly in the Lorea
-                  app, or connect with your concierge via live chat 24/7.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <button class="accordion-trigger" aria-expanded="false">
-                <span>What safety measures are in place for travelers?</span>
-                <span class="icon">+</span>
-              </button>
-              <div class="accordion-panel" hidden>
-                <p>
-                  Our partners are vetted for health and safety compliance, and
-                  we provide real-time updates, insurance recommendations, and
-                  emergency support wherever you are.
-                </p>
-              </div>
-            </div>
+          <div class="package-grid">
+            <article class="package-card">
+              <h3>Bali Leisure 4D3N</h3>
+              <p class="package-price">Mulai 3,8 jt/pax</p>
+              <ul>
+                <li>Hotel bintang 4 di Kuta & Nusa Dua</li>
+                <li>Private tour ke Nusa Penida</li>
+                <li>Transport & guide berbahasa Indonesia</li>
+              </ul>
+            </article>
+            <article class="package-card">
+              <h3>Singapore Business Trip</h3>
+              <p class="package-price">Mulai 6,5 jt/pax</p>
+              <ul>
+                <li>Tiket PP full service airline</li>
+                <li>Meeting arrangement & city tour</li>
+                <li>Penjemputan bandara & asuransi perjalanan</li>
+              </ul>
+            </article>
+            <article class="package-card">
+              <h3>Labuan Bajo Sailing</h3>
+              <p class="package-price">Mulai 8,9 jt/pax</p>
+              <ul>
+                <li>Live on board kapal phinisi 3 hari</li>
+                <li>Makan lengkap & dokumentasi profesional</li>
+                <li>Guide lokal bersertifikat</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Kata mereka</h2>
+            <p>Pengalaman nyata dari klien yang telah mempercayakan perjalanannya kepada kami.</p>
+          </div>
+          <div class="testimonial-grid">
+            <figure class="testimonial-card">
+              <blockquote>
+                "Tim Seaside Journey sangat responsif. Perjalanan perusahaan kami ke Bangkok
+                berjalan lancar, semua peserta puas dengan pelayanannya."
+              </blockquote>
+              <figcaption>
+                <strong>Rani W.</strong>
+                <span>HR Manager, PT Nusantara Food</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                "Itinerary liburan keluarga di Jepang lengkap sekali. Anak-anak senang, orang tua
+                pun nyaman karena semua detail sudah diurus tim."
+              </blockquote>
+              <figcaption>
+                <strong>Adi &amp; Family</strong>
+                <span>Surabaya</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" aria-label="Destination gallery">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Galeri destinasi</h2>
+            <p>Inspirasi destinasi populer yang dapat Anda pilih untuk perjalanan berikutnya.</p>
+          </div>
+          <div class="gallery-grid">
+            <img src="assets/images/gallery-1.svg" alt="Illustration of tropical beach" />
+            <img src="assets/images/gallery-2.svg" alt="Illustration of mountain landscape" />
+            <img src="assets/images/gallery-3.svg" alt="Illustration of modern city skyline" />
           </div>
         </div>
       </section>
 
       <section class="contact" id="contact">
-        <div class="container">
-          <div class="contact-content">
-            <h2>Let's connect with us</h2>
-            <a class="contact-email" href="mailto:connect@lorea.travel">
-              connect@lorea.travel
-            </a>
-            <p class="caption">Surabaya, Indonesia</p>
-            <div class="contact-links">
-              <a href="#">Our Story</a>
-              <a href="#">Our People</a>
-              <a href="#">Contact Us</a>
-              <a href="#">FAQs</a>
-              <a href="#">Blog</a>
-            </div>
-            <p class="caption">Phone: (+62) 4244-4444</p>
+        <div class="container contact-layout">
+          <div class="contact-info">
+            <h2>Hubungi kami</h2>
+            <p>
+              Siap berdiskusi mengenai kebutuhan perjalanan Anda? Kirimkan detailnya melalui email
+              atau hubungi nomor kami di jam kerja.
+            </p>
+            <ul class="contact-list">
+              <li>Email: <a href="mailto:hello@seasidejourney.co.id">hello@seasidejourney.co.id</a></li>
+              <li>Telepon: <a href="tel:+623165551234">+62 31 6555 1234</a></li>
+              <li>Alamat kantor: Jl. Raya Darmo No. 45, Surabaya</li>
+            </ul>
           </div>
+          <form class="contact-form" aria-label="Contact form">
+            <div class="form-field">
+              <label for="name">Nama Lengkap</label>
+              <input id="name" type="text" name="name" placeholder="Masukkan nama Anda" />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="nama@perusahaan.com" />
+            </div>
+            <div class="form-field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" placeholder="Ceritakan kebutuhan perjalanan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn primary">Kirim Pesan</button>
+          </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p>© <span id="year"></span> Lorea Travel. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#privacy">Privacy Policy</a>
-          <a href="#terms">Terms</a>
-          <a href="#careers">Careers</a>
+      <div class="container footer-layout">
+        <div>
+          <span class="brand-mark">Seaside</span>
+          <p>© 2024 Seaside Journey Travel. All rights reserved.</p>
         </div>
+        <ul class="footer-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#packages">Paket</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
       </div>
     </footer>
 
-    <script src="assets/js/main.js" defer></script>
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navList = document.querySelector('.nav-list');
+      navToggle.addEventListener('click', () => {
+        const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', String(!expanded));
+        navList.classList.toggle('nav-open');
+      });
+    </script>
   </body>
 </html>

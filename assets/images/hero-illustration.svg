@@ -1,0 +1,21 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Travel illustration</title>
+  <desc id="desc">Abstract illustration of mountains, ocean, and sun.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc" />
+      <stop offset="100%" stop-color="#e1f5fe" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7" />
+      <stop offset="100%" stop-color="#0288d1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <circle cx="980" cy="180" r="110" fill="#ffcc80" opacity="0.9" />
+  <path d="M0 520 L220 360 L420 520 Z" fill="#90caf9" />
+  <path d="M220 520 L520 280 L820 520 Z" fill="#64b5f6" />
+  <path d="M520 520 L840 360 L1200 520 Z" fill="#42a5f5" />
+  <rect y="520" width="1200" height="280" fill="url(#sea)" />
+  <path d="M0 620 Q120 580 240 620 T480 620 T720 620 T960 620 T1200 620 V800 H0 Z" fill="#fff" opacity="0.6" />
+</svg>

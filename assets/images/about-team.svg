@@ -1,0 +1,50 @@
+<svg width="540" height="420" viewBox="0 0 540 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="60" y1="32" x2="472" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C2C48" />
+      <stop offset="1" stop-color="#324B74" />
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="128" x2="384" y2="344" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9C781" />
+      <stop offset="1" stop-color="#C99A4C" />
+    </linearGradient>
+    <linearGradient id="silk" x1="178" y1="180" x2="340" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F5FF" />
+      <stop offset="1" stop-color="#DBE4FF" />
+    </linearGradient>
+  </defs>
+  <rect x="32" y="28" width="476" height="364" rx="42" fill="#0F1B31" />
+  <rect x="44" y="40" width="452" height="340" rx="36" fill="url(#bgGradient)" />
+  <rect x="72" y="86" width="396" height="256" rx="32" fill="rgba(14, 24, 41, 0.45)" />
+  <rect x="108" y="122" width="324" height="196" rx="26" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.12)" />
+  <g filter="url(#shadow)">
+    <path d="M174 320C174 272 212 234 260 234H280C328 234 366 272 366 320V336H174V320Z" fill="#F8F8FC" />
+    <path d="M208 194C208 164.833 232.833 140 262 140C291.167 140 316 164.833 316 194C316 223.167 291.167 248 262 248C232.833 248 208 223.167 208 194Z" fill="url(#silk)" />
+    <path d="M230 180C230 162.327 244.327 148 262 148C279.673 148 294 162.327 294 180C294 197.673 279.673 212 262 212C244.327 212 230 197.673 230 180Z" fill="#F5D7AA" />
+    <path d="M238 174C238 157.431 251.431 144 268 144C284.569 144 298 157.431 298 174V186H238V174Z" fill="#1C2C48" />
+    <path d="M282 178C282 188.493 273.493 197 263 197C252.507 197 244 188.493 244 178H282Z" fill="#EBC790" />
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M104 344C104 312.833 129.833 287 161 287C192.167 287 218 312.833 218 344V360H104V344Z" fill="#F6F7FA" />
+    <path d="M120 250C120 225.699 139.699 206 164 206C188.301 206 208 225.699 208 250C208 274.301 188.301 294 164 294C139.699 294 120 274.301 120 250Z" fill="#E9D2B5" />
+    <path d="M126 240C126 214.386 146.386 194 172 194C197.614 194 218 214.386 218 240V248H126V240Z" fill="#233553" />
+    <path d="M170 248C170 256.284 163.284 263 155 263C146.716 263 140 256.284 140 248H170Z" fill="#D9B480" />
+    <path d="M130 236C130 220.536 142.536 208 158 208C173.464 208 186 220.536 186 236V240H130V236Z" fill="#324B74" />
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M322 336C322 302.862 349.862 275 383 275C416.138 275 444 302.862 444 336V352H322V336Z" fill="#F7F9FF" />
+    <path d="M334 240C334 214.386 354.386 194 380 194C405.614 194 426 214.386 426 240C426 265.614 405.614 286 380 286C354.386 286 334 265.614 334 240Z" fill="#F2D4AC" />
+    <path d="M338 224C338 204.565 353.565 189 373 189C392.435 189 408 204.565 408 224V234H338V224Z" fill="#1F2F4C" />
+    <path d="M354 232C354 242.493 362.507 251 373 251C383.493 251 392 242.493 392 232H354Z" fill="#DFBA87" />
+    <path d="M340 220C340 203.983 353.983 190 370 190C386.017 190 400 203.983 400 220V224H340V220Z" fill="#2D4670" />
+  </g>
+  <path d="M108 128H432" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-opacity="0.65" />
+  <path d="M152 90H388" stroke="#E8C782" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round" />
+  <path d="M132 364H408" stroke="#1A2742" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <filter id="shadow" x="60" y="124" width="420" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feOffset dy="18" />
+    <feGaussianBlur stdDeviation="18" />
+    <feColorMatrix type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.13 0 0 0 0 0.24 0 0 0 0.22 0" />
+    <feBlend in2="SourceGraphic" result="effect1_dropShadow" />
+  </filter>
+</svg>

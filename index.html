@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Company Travel — Company Profile</title>
+    <title>Seaside Journey Travel — Company Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,10 +16,10 @@
     <header class="site-header">
       <div class="container">
         <a href="#hero" class="brand" aria-label="Seaside Journey homepage">
-          <span class="brand-mark">YC</span>
+          <span class="brand-mark">SJ</span>
           <span class="brand-name">
-            <span>Your</span>
-            <span>Travel Company</span>
+            <span>Seaside</span>
+            <span>Journey Travel</span>
           </span>
         </a>
         <nav class="main-nav" aria-label="Primary">
@@ -44,7 +44,13 @@
 
     <main>
       <section class="hero" id="hero">
-        <div class="container">
+        <div class="hero-media" aria-hidden="true">
+          <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1526779259212-939e64788e8c?auto=format&fit=crop&w=1600&q=80">
+            <source src="https://cdn.coverr.co/videos/coverr-walk-through-the-gold-rice-paddies-3717/1080p.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
           <div class="hero-copy">
             <p class="eyebrow">crafted for discerning travellers</p>
             <h1>Elevated travel management for unforgettable corporate & private escapes</h1>
@@ -76,9 +82,6 @@
               </div>
             </div>
           </div>
-          <div class="hero-media">
-            <img src="assets/images/hero-illustration.svg" alt="Luxury travel illustration" />
-          </div>
         </div>
       </section>
 
@@ -98,7 +101,7 @@
       <section class="about" id="about">
         <div class="container about-layout">
           <div class="about-media">
-            <img src="assets/images/about-team.svg" alt="Dedicated travel consultants" />
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1080&q=80" alt="Dedicated travel consultants" loading="lazy" />
           </div>
           <div class="about-copy">
             <h2>Profil boutique travel concierge kami</h2>
@@ -137,7 +140,9 @@
           </div>
           <div class="service-grid">
             <article class="service-card">
-              <img src="assets/images/service-icon-tour.svg" alt="Icon curated tour" />
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80" alt="Curated journey planning" loading="lazy" />
+              </div>
               <h3>Curated Signature Journeys</h3>
               <p>
                 Rancang itinerary tailor-made lengkap dengan aktivitas eksklusif, pemandu profesional,
@@ -145,7 +150,9 @@
               </p>
             </article>
             <article class="service-card">
-              <img src="assets/images/service-icon-hotel.svg" alt="Icon hotel and flights" />
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1519821172140-263b83f0a90b?auto=format&fit=crop&w=800&q=80" alt="Luxury hotels and flights" loading="lazy" />
+              </div>
               <h3>Executive Ticketing & Stays</h3>
               <p>
                 Akses prioritas ke maskapai premium, villa privat, dan jaringan hotel bintang lima dengan
@@ -153,7 +160,9 @@
               </p>
             </article>
             <article class="service-card">
-              <img src="assets/images/service-icon-support.svg" alt="Icon concierge support" />
+              <div class="service-media">
+                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Concierge and travel protection" loading="lazy" />
+              </div>
               <h3>Concierge & Travel Protection</h3>
               <p>
                 Tim concierge 24/7 siap membantu dokumen perjalanan, perlindungan asuransi, hingga
@@ -221,7 +230,7 @@
                 profesional dan tim Seaside selalu sigap menangani permintaan mendadak.”
               </blockquote>
               <figcaption>
-                <strong>Elwas R Saebani</strong>
+                <strong>Mira Adistya</strong>
                 <span>Corporate Communication Director, Astra Life</span>
               </figcaption>
             </figure>
@@ -246,9 +255,9 @@
             <p>Galeri dokumentasi perjalanan eksklusif yang kami kurasi sepanjang tahun.</p>
           </div>
           <div class="gallery-grid">
-            <img src="assets/images/gallery-1.svg" alt="Luxury beachside dinner" />
-            <img src="assets/images/gallery-2.svg" alt="Aurora over fjord landscape" />
-            <img src="assets/images/gallery-3.svg" alt="Traditional Kyoto street" />
+            <img src="https://images.unsplash.com/photo-1518544889280-0f0cb0d6878f?auto=format&fit=crop&w=900&q=80" alt="Luxury beachside dinner" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Aurora over fjord landscape" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1543248939-ff40856f65d4?auto=format&fit=crop&w=900&q=80" alt="Traditional Kyoto street" loading="lazy" />
           </div>
         </div>
       </section>
@@ -262,9 +271,9 @@
               kerja.
             </p>
             <ul class="contact-list">
-              <li>Email: <a href="mailto:elwas.rsaebani@gmail.com">elwas.rsaebani@gmail.com</a></li>
-              <li>Telepon: <a href="tel:+623165551234">+62 851 7539 4358</a></li>
-              <li>Alamat showroom: Jl. Pegadaian Perum Puri Indah No. 45, Purwokerto</li>
+              <li>Email: <a href="mailto:concierge@seasidejourney.co.id">concierge@seasidejourney.co.id</a></li>
+              <li>Telepon: <a href="tel:+623165551234">+62 31 6555 1234</a></li>
+              <li>Alamat showroom: Jl. Raya Darmo No. 45, Surabaya</li>
             </ul>
           </div>
           <form class="contact-form" aria-label="Contact form">
@@ -289,8 +298,8 @@
     <footer class="site-footer">
       <div class="container footer-layout">
         <div>
-          <span class="brand-mark">YC</span>
-          <p>© 202 Your Company Travel. All rights reserved.</p>
+          <span class="brand-mark">SJ</span>
+          <p>© 2024 Seaside Journey Travel. All rights reserved.</p>
         </div>
         <ul class="footer-links">
           <li><a href="#about">Tentang</a></li>
